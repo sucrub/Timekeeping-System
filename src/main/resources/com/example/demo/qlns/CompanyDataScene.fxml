@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="652.0" prefWidth="1088.0" stylesheets="@company.style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.qlns.CompanyDataView">
+   <children>
+      <AnchorPane fx:id="dataView" layoutX="75.0" layoutY="280.0" prefHeight="318.0" prefWidth="943.0" styleClass="card-effect">
+         <children>
+            <Label styleClass="bigLabel" fx:id="departmentLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="350.0" layoutY="21.0" prefHeight="43.0" prefWidth="255.0" text="Label" />
+            <Label styleClass="typeLabel" fx:id="type1Label" layoutX="55.0" layoutY="107.0" prefHeight="25.0" prefWidth="125.0" text="Data 1" />
+            <Label styleClass="typeLabel" fx:id="type2Label" layoutX="55.0" layoutY="166.0" prefHeight="25.0" prefWidth="125.0" text="Data 2" />
+            <Label styleClass="typeLabel" fx:id="type3Label" layoutX="55.0" layoutY="224.0" prefHeight="25.0" prefWidth="125.0" text="Data 3" />
+            <Label fx:id="data1Label" layoutX="205.0" layoutY="107.0" prefHeight="25.0" prefWidth="108.0" text="Data" />
+            <Label fx:id="data2Label" layoutX="205.0" layoutY="166.0" prefHeight="25.0" prefWidth="108.0" text="Data" />
+            <Label fx:id="data3Label" layoutX="205.0" layoutY="224.0" prefHeight="25.0" prefWidth="108.0" text="Data" />
+            <Label styleClass="typeLabel" fx:id="type4Label" layoutX="577.0" layoutY="111.0" prefHeight="25.0" prefWidth="125.0" text="Data 1" />
+            <Label styleClass="typeLabel" fx:id="type5Label" layoutX="577.0" layoutY="170.0" prefHeight="25.0" prefWidth="125.0" text="Data 2" />
+            <Label fx:id="data4Label" layoutX="731.0" layoutY="111.0" prefHeight="25.0" prefWidth="108.0" text="Data" />
+            <Label fx:id="data5Label" layoutX="731.0" layoutY="170.0" prefHeight="25.0" prefWidth="108.0" text="Data" />
+         </children></AnchorPane>
+      <Button layoutX="928.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleImport" prefHeight="35.0" prefWidth="90.0" styleClass="importButton" text="Import" />
+      <SplitMenuButton fx:id="departmentSelect" layoutX="75.0" layoutY="172.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="321.0" styleClass="splitmenu" text="Đơn vị">
+        <items>
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="yearSelect" layoutX="75.0" layoutY="215.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" styleClass="splitmenu" text="Năm">
+        <items>
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="typeSelect" layoutX="185.0" layoutY="215.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" styleClass="splitmenu" text="Quý">
+        <items>
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="timeSelect" layoutX="298.0" layoutY="215.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" styleClass="splitmenu" text="Tháng">
+        <items>
+        </items>
+      </SplitMenuButton>
+   </children>
+
+</AnchorPane>

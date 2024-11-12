@@ -1,0 +1,32 @@
+.card-effect {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 20, 0, 0, 0);
+}
+
+.splitmenu {
+    -fx-background-color: #0000ff, #0000ff;
+}
+
+.importButton {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+
+.importButton:hover {
+    -fx-background-color: #1565C0;
+}
+
+.bigLabel {
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.typeLabel {
+    -fx-font-weight: bold;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="1255.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.userview.UserMainView">
+    <children>
+        <AnchorPane prefHeight="650.0" prefWidth="699.0">
+            <children>
+
+                <!-- Main Content Area -->
+                <StackPane fx:id="contentPane" layoutX="169.0" layoutY="84.0" prefHeight="654.0" prefWidth="1091.0" />
+                <!-- Top Navbar -->
+                <AnchorPane layoutX="158.0" prefHeight="85.0" prefWidth="1103.0" style="-fx-background-color: #FFFFFF;">
+                    <children>
+                        <Label fx:id="sceneLabel" layoutX="34.0" layoutY="17.0" prefHeight="51.0" prefWidth="563.0" styleClass="whitetext" text="Trang chủ" />
+                        <Label fx:id="userName" layoutX="730.0" layoutY="19.0" prefHeight="44.0" prefWidth="210.0" styleClass="whitetext" text="Nguyễn Văn ABCXYZ" />
+                        <ImageView styleClass="avatar avatar-image" fitHeight="57.0" fitWidth="57.0" layoutX="978.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../image/default.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </AnchorPane>
+
+                <!-- Sidebar -->
+                <AnchorPane prefHeight="738.0" prefWidth="172.0" styleClass="sidebar">
+                    <children>
+                        <Button id="option1" fx:id="option1Button" layoutY="142.0" mnemonicParsing="false" onAction="#handleSidebarOptionClick" prefHeight="51.0" prefWidth="175.0" text="Trang chủ " />
+                        <Button id="option2" fx:id="option2Button" layoutY="193.0" mnemonicParsing="false" onAction="#handleSidebarOptionClick" prefHeight="51.0" prefWidth="175.0" text="Xem thông tin chấm công" />
+                        <Button id="option3" fx:id="option3Button" layoutY="244.0" mnemonicParsing="false" onAction="#handleSidebarOptionClick" prefHeight="51.0" prefWidth="175.0" text="Xem thông tin tổng hợp" />
+                        <Button id="option4" fx:id="option4Button" layoutY="295.0" mnemonicParsing="false" onAction="#handleSidebarOptionClick" prefHeight="51.0" prefWidth="175.0" text="Tạo yêu cầu chỉnh sửa" />
+                        <Button id="option5" fx:id="option5Button" layoutY="344.0" mnemonicParsing="false" onAction="#handleSidebarOptionClick" prefHeight="51.0" prefWidth="175.0" text="Xem yêu cầu chỉnh sửa" />
+                        <Button id="option6" fx:id="option6Button" layoutY="395.0" mnemonicParsing="false" onAction="#handleSidebarOptionClick" prefHeight="51.0" prefWidth="175.0" text="Đăng xuất" />
+                    </children>
+                </AnchorPane>
+
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

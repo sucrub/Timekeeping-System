@@ -1,0 +1,28 @@
+.login-container {
+    -fx-background-color: transparent;
+}
+
+.left-pane {
+    -fx-background-color: linear-gradient(to bottom, #487CE2, #48D9E2);
+    -fx-padding: 20px;
+    -fx-background-position: top;
+}
+
+.right-pane {
+    -fx-background-color: #E8E6E6;
+    -fx-padding: 20px;
+}
+
+.card-container {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 20, 0, 0, 0);
+}
+
+.label, .text-field, .button {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px;
+}

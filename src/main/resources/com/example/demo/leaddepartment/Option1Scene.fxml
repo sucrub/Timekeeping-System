@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane style="-fx-background-color: #aaffaa;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+
+    <Text layoutX="409.0" layoutY="318.0" text="Option 1 Scene" wrappingWidth="81.19921875" />
+
+</AnchorPane>

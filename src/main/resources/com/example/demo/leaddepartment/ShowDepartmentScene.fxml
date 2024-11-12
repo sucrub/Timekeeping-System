@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="652.0" prefWidth="1088.0" stylesheets="@check_in.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.leaddepartment.CheckinDepartmentView">
+    <children>
+        <AnchorPane fx:id="dataPane" layoutX="47.0" layoutY="34.0" prefHeight="590.0" prefWidth="1001.0" styleClass="card-effect">
+            <children>
+                <Pagination fx:id="pagination" layoutX="51.0" layoutY="74.0" prefHeight="483.0" prefWidth="919.0" styleClass="pagination" />
+                <TableView fx:id="dataTable" fixedCellSize="30.5" layoutX="127.0" layoutY="210.0" maxHeight="280.0" prefHeight="280.0" prefWidth="753.0" styleClass="custom-table-view" tableMenuButtonVisible="false">
+                    <columns>
+                        <TableColumn fx:id="colId" prefWidth="73.0" text="ID" />
+                        <TableColumn fx:id="colName" prefWidth="140.0" text="Name" />
+                        <TableColumn fx:id="colDay" prefWidth="90.0" text="Day" />
+                        <TableColumn fx:id="colDay1" prefWidth="90.0" text="Day 1" />
+                        <TableColumn fx:id="colDay2" prefWidth="90.0" text="Day 2" />
+                        <TableColumn fx:id="colDay3" prefWidth="90.0" text="Day 3" />
+                        <TableColumn fx:id="colDay4" prefWidth="90.0" text="Day 4" />
+                        <TableColumn fx:id="colDay5" prefWidth="90.0" text="Day 5" />
+                    </columns>
+                </TableView>
+                <Button fx:id="leftButton" layoutX="25.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleLeftButtonClick" styleClass="arrowButton" text="&lt;" />
+                <Button fx:id="rightButton" layoutX="946.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleRightButtonClick" styleClass="arrowButton" text="&gt;" />
+                <TextField fx:id="searchField" layoutX="586.0" layoutY="169.0" prefHeight="25.0" prefWidth="235.0" />
+                <SplitMenuButton fx:id="splitMenuMonth" layoutX="127.0" layoutY="169.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" styleClass="splitMenu" text="Month">
+                    <items>
+                    </items>
+                </SplitMenuButton>
+                <Button fx:id="searchButton" layoutX="828.0" layoutY="168.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="49.0" styleClass="searchButton" onAction="#handleFilter" text="Search" />
+            </children></AnchorPane>
+    </children>
+</AnchorPane>

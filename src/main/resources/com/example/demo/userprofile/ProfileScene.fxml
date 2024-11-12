@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="652.0" prefWidth="1088.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="47.0" layoutY="34.0" prefHeight="590.0" prefWidth="1001.0" styleClass="card-effect">
+         <children>
+            <ImageView fitHeight="211.0" fitWidth="167.0" layoutX="51.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/default-user.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="nameLabel" layoutX="245.0" layoutY="80.0" prefHeight="37.0" prefWidth="199.0" styleClass="title" text="Ten" />
+            <Label layoutX="245.0" layoutY="130.0" prefHeight="37.0" prefWidth="100.0" styleClass="title" text="Đơn vị" />
+            <Label layoutX="245.0" layoutY="185.0" prefHeight="37.0" prefWidth="100.0" styleClass="title" text="Vai trò" />
+            <Label fx:id="departmentLabel" layoutX="350.0" layoutY="130.0" prefHeight="37.0" prefWidth="327.0" styleClass="info" text="Label" />
+            <Label fx:id="roleLabel" layoutX="350.0" layoutY="185.0" prefHeight="37.0" prefWidth="308.0" styleClass="info" text="Label" />
+            <AnchorPane layoutX="51.0" layoutY="331.0" prefHeight="192.0" prefWidth="909.0" styleClass="card-effect">
+               <children>
+                  <Label layoutX="21.0" layoutY="30.0" prefHeight="30.0" prefWidth="150.0" styleClass="title" text="Sinh nhật" />
+                  <Label layoutX="21.0" layoutY="82.0" prefHeight="30.0" prefWidth="150.0" styleClass="title" text="Địa chỉ" />
+                  <Label layoutX="21.0" layoutY="134.0" prefHeight="17.0" prefWidth="150.0" styleClass="title" text="Email" />
+                  <Label fx:id="birthdayLabel" layoutX="205.0" layoutY="30.0" prefHeight="30.0" prefWidth="617.0" styleClass="info" text="Label" />
+                  <Label fx:id="addressLabel" layoutX="205.0" layoutY="82.0" prefHeight="30.0" prefWidth="608.0" styleClass="info" text="Label" />
+                  <Label fx:id="emailLabel" layoutX="205.0" layoutY="134.0" prefHeight="30.0" prefWidth="617.0" styleClass="info" text="Label" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+.sidebar {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #487CE2, #48D9E2);
+}
+
+.avatar {
+    -fx-background-radius: 50%;
+    -fx-background-color: transparent;
+}
+
+.avatar-image {
+    -fx-clip: "M0,0H57V57H0Z";
+}
+
+.whitetext {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.sidebar Button {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 0;
+    -fx-wrap-text: true;
+    -fx-alignment: baseline-left;
+}
+
+.sidebar Button:hover,
+.sidebar Button:selected {
+    -fx-background-color: rgba(0, 0, 0, 0.42);
+}
